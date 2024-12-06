@@ -1,0 +1,179 @@
+/* The Website Background for everything*/
+html {
+    background-color:lightblue;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+} 
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color:red;
+    color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+.container {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.Tiktok {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  color: black;
+  text-align: center;
+}
+.Youtube {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-align: center;
+}
+.Instagram {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-align: center;
+}
+.Facebook {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-align: center;
+}
+.Twitch {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 450;
+  text-align: center;
+}
+.fa-tiktok {
+  background-color:black;
+  border-radius: 2em;
+  padding-left:0.3em;
+  padding-top:0.3em;
+  padding-right:0.3em;
+  padding-bottom:0.3em;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 45px; 
+  text-align: center;
+}
+.fa-youtube {
+  background-color: white;
+
+  color:red;
+  margin-top: auto;
+  margin-bottom: auto;
+  fill: white;
+  font-size: 55px;
+}
+.fa-instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  border-radius: 0.4em;
+  padding-left:0.2em;
+  padding-top:0.2em;
+  padding-right:0.2em;
+  padding-bottom:0.2em;
+  color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 50px;
+}
+.fa-facebook {
+  background-color: white;
+  border-radius: 0.2em;
+  padding-left:0.1em;
+  padding-top:0.1em;
+  padding-right:0.1em;
+  padding-bottom:0.1em;
+  color: blue;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-size: 50px;
+}
+.fa-twitch{
+  background-color: white;
+  border-radius: 0.2em;
+  color:#6441a5;
+  margin-top: initial;
+  margin-bottom: initial;
+  font-size: 55px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #333;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+.footer {
+  color: white;
+  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+}
+.Socials {
+  color:black;
+  text-align: center;
+  align-content: center;
+}
